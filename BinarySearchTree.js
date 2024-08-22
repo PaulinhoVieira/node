@@ -78,6 +78,15 @@ class BinarySearchTree {
         }
         
     }
+    maxNode(){
+        if (this.root === null){
+            this.root = new Node(value);
+        }else{
+            let node = this.root;
+            
+        }    
+    }
+
     //Insert(value)
     //search(value)
     //inOrder()
